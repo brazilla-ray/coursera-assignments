@@ -1,0 +1,84 @@
+/** Resets **/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** Typography **/
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/** Grid system **/
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col {
+  float: left;
+  padding: 15px;
+}
+
+@media (min-width: 992px) {
+  .col-4 {
+  width: 33.333333333%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-6 {
+    width: 50%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+
+/** Content **/
+.title {
+  text-align: center;
+  padding: 15px;
+}
+
+.article-title {
+  position: relative;
+  top: 0;
+  width: max-content;
+  float: right;
+  padding: 15px;
+  outline: 2px solid #000;
+}
+
+.content {
+  background-color: #f0f0f0;
+  border: 2px solid #000;
+  height: 200px;
+}
+
+.content>p {
+  padding: 15px;
+  clear: right;
+}
+
+.chicken {
+  background-color: chocolate;
+}
+
+.beef {
+  background-color: crimson;
+}
+
+.sushi {
+  background-color: cyan;
+}
